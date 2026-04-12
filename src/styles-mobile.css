@@ -1,0 +1,63 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+       body {
+            font-family: 'Outfit', sans-serif;
+            background-color: black;  
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            
+        }
+
+
+        .mobile {
+            width: 375px;
+	    height: 812px;
+            background-color: #D5E1EF;
+            display: flex;
+            justify-content: center;  /* Centers horizontally */
+            align-items: center;     
+        }
+      
+        .card {
+            width: 320px;
+	    height: 499px;
+            background-color: white;
+            border-radius: 20px;        /* Rounded corners  */
+            padding: 16px 16px 40px 16px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s ease;
+        }
+
+        .qr-image {
+            width: 288px;
+	    height: 288px;
+            border-radius: 10px;
+            display: block;
+            margin-bottom: 20px;
+
+        }
+
+      .title {
+            font-size: 22px;
+            font-weight: 700; /* Same as Bold */
+            color: #1F314F;
+            margin-bottom: 16px;
+            line-height: 1.2;
+        }
+
+	.description {
+            font-size: 15px;
+            font-weight: 400; /* Same as Regular*/
+            color: #68778D;
+            margin-bottom: 20px;
+            line-height: 1.4;
+            letter-spacing: 0.2px;
+        }
